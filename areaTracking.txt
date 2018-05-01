@@ -1,0 +1,13 @@
+Installing GitHub
+
+
+Setting up Git
+
+$ git config --global user.name "proxteamlead"
+$ git config --global user.email srussell@renewalcolorado.com
+
+Load the existing maps and notes to your desktop
+
+Signing into Git on GitHub
+username proxteamlead
+Wedowindows1!
