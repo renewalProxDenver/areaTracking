@@ -1,27 +1,32 @@
-Installing GitHub
+Installing Git bash (instructions will be added after adding this to another station)
 
 
 Setting up Git
 
+Using Git to load the latest master data for immediate edits
+(Note that merging several days of edits from several different work stations will not
+be an option on Day 1. Load the master, edit it, post your edits.)
+Commands that are to be run in Git Bash are preceded with a $
 $ git config --global user.name "proxteamlead"
 $ git config --global user.email srussell@renewalcolorado.com
 
 Load the existing maps and notes to your desktop
+(the path to the desktop will vary based on the work station you are using)
 $ cd //rba-col-dc01/redirectedfolders/ccrowe/desktop
 $ git clone https://github.com/renewalProxDenver/areaTracking.git
+$ cd areaTracking
 
 The previous command loaded the latest information on to the desktop into
 a folder named areaTracking.
 
 Go make your changes to the tracking map and then run these commands to
 commit all of your daily changes with a message detailing the changes:
-$ cd areaTracking
 $ git commit -a -m "Update CC 5/1"
-(The commit message is held in quotes. Initially it may make sense
-to include the team that did the update as well as the date it was updated)
+The commit message is held in quotes. Initially it may make sense
+to include the team that did the update as well as the date it was updated
 
-The previous line will not update the master file but only stage the
-change for the next command.
+The previous line will not update the master file but only stage 
+changes for the next command.
 $ git push
 
 At this point we may be prompted for username and/or password
