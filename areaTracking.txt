@@ -16,7 +16,7 @@ a folder named areaTracking.
 Go make your changes to the tracking map and then run these commands to
 commit all of your daily changes with a message detailing the changes:
 $ cd areaTracking
-$ git commit -a -m "Updated map CC 5/1"
+$ git commit -a -m "Update CC 5/1"
 (The commit message is held in quotes. Initially it may make sense
 to include the team that did the update as well as the date it was updated)
 
@@ -24,9 +24,11 @@ The previous line will not update the master file but only stage the
 change for the next command.
 $ git push
 
-That is it, we have changed the master map, staged our edits, and then
+At this point we may be prompted for username and/or password
+user name: proxteamlead
+password: Wedowindows1!
+
+Assuming everything has worked then that is it. 
+We have changed the master map, staged our edits, and then
 posted our edits to the master file for other users.
 
-Signing into Git on GitHub
-username proxteamlead
-Wedowindows1!
