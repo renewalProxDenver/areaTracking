@@ -7,6 +7,8 @@ Using Git to load the latest master data for immediate edits
 (Note that merging several days of edits from several different work stations will not
 be an option on Day 1. Load the master, edit it, post your edits.)
 Commands that are to be run in Git Bash are preceded with a $
+(The following commands only need to be run each time a different user wants to edit.
+Initially we will have one user but may have many later.)
 $ git config --global user.name "proxteamlead"
 $ git config --global user.email srussell@renewalcolorado.com
 
