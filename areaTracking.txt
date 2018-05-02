@@ -13,6 +13,20 @@ $ git clone https://github.com/renewalProxDenver/areaTracking.git
 The previous command loaded the latest information on to the desktop into
 a folder named areaTracking.
 
+Go make your changes to the tracking map and then run these commands to
+commit all of your daily changes with a message detailing the changes:
+$ cd areaTracking
+$ git commit -a -m "Updated map CC 5/1"
+(The commit message is held in quotes. Initially it may make sense
+to include the team that did the update as well as the date it was updated)
+
+The previous line will not update the master file but only stage the
+change for the next command.
+$ git push
+
+That is it, we have changed the master map, staged our edits, and then
+posted our edits to the master file for other users.
+
 Signing into Git on GitHub
 username proxteamlead
 Wedowindows1!
