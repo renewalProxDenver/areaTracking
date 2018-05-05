@@ -44,3 +44,8 @@ Assuming everything has worked then that is it.
 We have changed the master map, staged our edits, and then
 posted our edits to the master file for other users.
 
+At this point we have cloned the current master, made some changes, and then merged everything together.
+From here on out we will make sure we have the latest master, edit that, and then push our edits.
+The first step we be to make sure we have the latest master data.
+$ git pull https://github.com/renewalproxdenver/areatracking.git
+
