@@ -3,7 +3,7 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 Installing Git bash which helps us use Git 
 (instructions will be added after adding this to another station)
-(5/1)
+(5/4)
 
 Here are some more details on what Git is and how we can use it:
 https://git-scm.com/book/en/v2
