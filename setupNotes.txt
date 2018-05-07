@@ -1,43 +1,41 @@
 Basic instructions on installing Git (we are using Windows)
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-Installing Git bash which helps us use Git 
-(instructions will be added after adding this to another station)
-
 Here are some more details on what Git is and how we can use it:
 https://git-scm.com/book/en/v2
 
 Using Git to load the latest master data for immediate edits
-(Note that merging several days of edits from several different work stations will not
-be an option on Day 1. Load the master, edit it, post your edits.)
 Commands that are to be run in Git Bash are preceded with a $
-(The following commands only need to be run each time a different user wants to edit.
-Initially we will have one user but may have many later.)
 $ git config --global user.name "proxteamlead"
 $ git config --global user.email srussell@renewalcolorado.com
 
 Load the existing maps and notes to your desktop
-(the path to the desktop will vary based on the work station you are using)
+The path to the desktop will vary based on the work station you are using.
+//rba-col-dc01/redirectedfolders/ccrowe/desktop is the path for Cam Crowe's
+work computer station.
 $ cd //rba-col-dc01/redirectedfolders/ccrowe/desktop
 $ git clone https://github.com/renewalProxDenver/areaTracking.git
 $ cd areaTracking
 
-The previous command loaded the latest information on to the desktop into
-a folder named areaTracking.
+The previous commands loaded the latest information on to the desktop into
+a folder named areaTracking. We then moved to that folder.
 
-Go make your changes to the tracking map and then run these commands to
-commit all of your daily changes with a message detailing the changes:
-$ git commit -a -m "Update CC 5/1"
+Now, open the master map from the file that we downloaded.
+After you have made all edits that you would like to post to the master
+map save the file.
+The following command will commit all of your daily changes with 
+a message detailing the changes:
+$ git commit -a -m "[A message detailing what you changed]"
 The commit message is held in quotes. Initially it may make sense
 to include the team that did the update as well as the date it was updated
+such as "CC update 5/6/2018". This way we know that team last updated
+their info on that date.
 
 The previous line will not update the master file but only stage 
 changes for the next command.
 $ git push
 
 At this point we may be prompted for username and/or password
-user name: proxteamlead
-password: Wedowindows1!
 
 Assuming everything has worked then that is it. 
 We have changed the master map, staged our edits, and then
@@ -51,5 +49,5 @@ $ git pull
 From there we add our edits and run the same last two lines to stage our 
 edits and then push to the master repository.
 
-$ git commit -a -m "Added to the notes"
+$ git commit -a -m "[Team] update [Date]"
 $ git push
