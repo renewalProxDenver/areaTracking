@@ -1,0 +1,48 @@
+This has the most basic information for using Git to help us maintain
+a single map with all of our tracking information.
+This will assume that Git is installed on the computer you are using
+and that initial setup has been performed. If this is the first time
+using these tools or processes please refer to the setupNotes.txt file.
+
+We will try to limit the amount of users that can edit the master tracking
+map because Git has issues reconciling edits made to maps. For this reason
+a simple process will help us stay out of the woods when it comes to
+using Git with our image data.
+
+Basic synopsis of edit process:
+1 Load the most recent data (pull)
+2 Make all edits that you want to post
+3 Commit all edits and push to the master repository (commit, push)
+
+This process will fall apart if multiple users are working on the same
+map at the same time. Therefore, one team should go through the process at a 
+time
+
+Detailed synopsis of edit process:
+1 Load the most recent data
+Navigate to the folder that is under verson control and contains the
+master tracking map to be edited.
+This will commonly be done with the following command:
+$ cd //rba-col-dc01/redirectedfolders/ccrowe/desktop/areatracking
+
+Now make sure you are working with the latest master map:
+$ git pull
+
+2 Make all edits that you want to post
+Open the map from the areatracking folder. Make all edits and save the map.
+
+3 Commit all edits and push to the master repository
+Now simply commit your edits and post to the master.
+$ git commit "[Team] update [date of update]"
+$ git push
+At this time Git may ask for username and password, so please enter them
+to continue.
+
+Now the info is ready for the next team to add their edits. As long as the
+simple process is used we should avoid issues. Issues will develop if multiple
+users pull the same map, create different edits, and then try to post.
+Git is not designed for reconciling differences in images.
+
+Now, any user or team that would like to review our most recent master
+tracking map need only go to https://github.com/renewalproxdenver/areatracking
+and open trkMaster.ptm in MapPoint.
