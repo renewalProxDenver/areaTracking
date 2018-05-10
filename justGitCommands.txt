@@ -1,0 +1,11 @@
+The file path to your desktop will vary based on your computer
+$ cd //rba-col-dc01/redirectedfolders/ccrowe/desktop/areatracking
+
+Sync with the most recent files 
+$ git pull
+
+Add your edits for just your map and save them
+
+Push your changes to the Git server
+$ git commit -a -m "[Team] update [date of update]"
+$ git push
