@@ -22,7 +22,7 @@ Detailed synopsis of edit process:
 1 Load the most recent data
 Navigate to the folder that is under verson control and contains the
 master tracking map to be edited.
-This will commonly be done with the following command:
+This will commonly be done with the following command: **change "ccrowe" below to team leader first initial and last name**
 $ cd //rba-col-dc01/redirectedfolders/ccrowe/desktop/areatracking
 
 Now make sure you are working with the latest master map:
@@ -33,7 +33,7 @@ Open the map from the areatracking folder. Make all edits and save the map.
 
 3 Commit all edits and push to the master repository
 Now simply commit your edits and post to the master.
-$ git commit "[Team] update [date of update]"
+$ git commit -a -m "[Team] update [date of update]"
 $ git push
 At this time Git may ask for username and password, so please enter them
 to continue.
