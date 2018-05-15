@@ -22,7 +22,7 @@ Detailed synopsis of edit process:
 1 Load the most recent data
 Navigate to the folder that is under verson control and contains the
 master tracking map to be edited.
-This will commonly be done with the following command: **change "ccrowe" below to team leader first initial and last name**
+This will commonly be done with the following command: **change "ccrowe" below to team leader first initial and last name; cgebhardt, etc**
 $ cd //rba-col-dc01/redirectedfolders/ccrowe/desktop/areatracking
 
 Now make sure you are working with the latest master map:
