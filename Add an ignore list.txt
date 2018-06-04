@@ -1,0 +1,32 @@
+Here are some basic notes and instructions for adding an ignore list to your folder
+
+The ignore list contains files and file patterns (folders, regex, etc.) that git
+should not bother to sync.
+
+We will be adding a copy folder that we can store different iterations in.
+This will be used for data recovery in the case that there is a complication.
+
+To create the file open git bash and enter the following commands:
+$ cd [directory containing the areaTracking folder, usually looks like 
+	//rba-col-dc01/redirectedfolders/ccrowe/desktop/areatracking]
+$ touch git.txt
+$ cp git.txt .gitignore
+$ rm git.txt
+$ echo "copy/" > .gitignore
+$ echo "tat" > .gitignore
+$ git add .gitignore
+$ mkdir copy
+
+Now we have added a file that will contain patterns that git should not bother with tracking.
+We have added the copy folder to that file and now nothing we put in that folder will be tracked.
+Any files that we have in that folder will only be stored on the local computer.
+
+The only change now that we will have in our routine will be to create a copy of our map
+before we pull the community changes.
+
+This will be done with the following commands (navigating to areaTracking already assumed):
+$ cp trkNorthMaster.ptm trkCopy[date].ptm
+$ mv trkCopy[date].ptm copy/
+
+And now we have a dated copy of our latest work saved in a local folder that we can access
+in the scenario of data loss.
