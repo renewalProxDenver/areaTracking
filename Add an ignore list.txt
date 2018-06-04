@@ -1,5 +1,9 @@
 Here are some basic notes and instructions for adding an ignore list to your folder
 
+------
+This section is only done once for the entire project
+------
+
 The ignore list contains files and file patterns (folders, regex, etc.) that git
 should not bother to sync.
 
@@ -29,3 +33,14 @@ $ mv trkCopy[date].ptm copy/
 
 And now we have a dated copy of our latest work saved in a local folder that we can access
 in the scenario of data loss.
+
+------
+This section is done for individual work stations
+------
+$ cd [directory containing the areaTracking folder, usually looks like 
+	//rba-col-dc01/redirectedfolders/ccrowe/desktop/areatracking]
+$ mkdir copy
+
+This is the only modification to process (included in "justGitCommands.txt"):
+$ cp trkNorthMaster.ptm trkCopy[date].ptm
+$ mv trkCopy[date].ptm copy/
