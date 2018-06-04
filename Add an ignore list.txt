@@ -13,7 +13,6 @@ $ touch git.txt
 $ cp git.txt .gitignore
 $ rm git.txt
 $ echo "copy/" > .gitignore
-$ echo "tat" > .gitignore
 $ git add .gitignore
 $ mkdir copy
 
