@@ -42,5 +42,4 @@ $ cd [directory containing the areaTracking folder, usually looks like
 $ mkdir copy
 
 This is the only modification to process (included in "justGitCommands.txt"):
-$ cp trkNorthMaster.ptm trkCopy[date].ptm
-$ mv trkCopy[date].ptm copy/
+$ cp trkNorthMaster.ptm copy/trkCopy[date].ptm
