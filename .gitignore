@@ -1,2 +1,4 @@
 copy/
-"~*"
+
+# Excel temporary
+~$*.xls*
