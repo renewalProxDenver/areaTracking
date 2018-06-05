@@ -3,8 +3,7 @@ $ cd //rba-col-dc01/redirectedfolders/ccrowe/desktop/areatracking
 
 Now we will create a copy of our recently stored map. This can be used in the
 scenario that we lost data with the most recent update.
-$ cp trkNorthMaster.ptm trkCopy[date].ptm
-$ mv trkCopy[date].ptm copy/
+$ cp trkNorthMaster.ptm copy/trkCopy[date].ptm
 
 Sync with the most recent files 
 $ git pull
