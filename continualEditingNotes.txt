@@ -9,6 +9,7 @@ map because Git has issues reconciling edits made to maps. For this reason
 a simple process will help us stay out of the woods when it comes to
 using Git with our image data.
 
+________
 Basic synopsis of edit process:
 1 Load the most recent data (pull)
 2 Make all edits that you want to post
@@ -18,12 +19,22 @@ This process will fall apart if multiple users are working on the same
 map at the same time. Therefore, one team should go through the process at a 
 time
 
+_______
 Detailed synopsis of edit process:
 1 Load the most recent data
 Navigate to the folder that is under verson control and contains the
 master tracking map to be edited.
-This will commonly be done with the following command: **change "ccrowe" below to team leader first initial and last name; cgebhardt, etc**
+This will commonly be done with the following command: 
+**change "ccrowe" below to team leader first initial and last name; cgebhardt, etc**
 $ cd //rba-col-dc01/redirectedfolders/ccrowe/desktop/areatracking
+
+** Super important!!**
+Make a copy of the map you have before pulling.
+This may save loads of stress later if there was an error by another team.
+If you do not have a file name copy please add one with the following command
+$ mkdir copy
+Now create a copy (with an optional date suffix) in an untracked folder:
+$ cp trkNorthMaster.ptm copy/trkCopy[date].ptm
 
 Now make sure you are working with the latest master map:
 $ git pull
