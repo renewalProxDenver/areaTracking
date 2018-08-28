@@ -1,18 +1,1 @@
-Git is a version control system that is primarily useful for text files.
-Text files that may be useful later would include text that help generate
-maps, text that contains instructions like this document, text that
-contains query info or other code that may be useful in generating
-maps.
-Git is designed for use with all the previously listed text files.
-Maps are not text files but we can still use Git to help us distribute
-a single master map that contains all group info.
-To simplify our work with Git I propose we use Git primarily as
-a central hub for the maps as well as a repository for any code that
-we may use for generating the maps or queries that populate the maps.
-
-When we are using Git to update the maps it may be best to keep the
-process as simple as possible and limit the amount of people who use Git
-to reduce sources of errors.
-
-I will create two other documents that detail initial setup and then
-routine Git execution after initial setup.
+Git will be used to maintain the shared files
