@@ -1,16 +1,2 @@
-Basic instructions on installing Git (we are using Windows)
-https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-
-Here are some of the options used when installing Git in Longmont
-32 bit Git
-Desktop icon (y)
-Use git from Git Bash only
-	(Use Git from the Windows Command Prompt is a likely safe option, nobody will ever use it anyway)
-Use open SSL Library
-Checkout Windows style (recommended setting on Windows)
-Use MinTTY (this setting works fine for what we need to do)
-
-Here are some more details on what Git is and how we can use it:
-https://git-scm.com/book/en/v2
-
-The most important thing
+Most options are inconsequential when installing Git
+This is a window company, not a technology company
