@@ -1,2 +1,1 @@
-Most options are inconsequential when installing Git
-This is a window company, not a technology company
+Install options are inconsequential when installing Git
