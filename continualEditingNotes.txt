@@ -1,9 +1,3 @@
-This has the most basic information for using Git to help us maintain
-a single map with all of our tracking information.
-This will assume that Git is installed on the computer you are using
-and that initial setup has been performed. If this is the first time
-using these tools or processes please refer to the setupNotes.txt file.
-________
 Basic synopsis of edit process:
 1 Load the most recent data (pull)
 2 Make all edits that you want to post
