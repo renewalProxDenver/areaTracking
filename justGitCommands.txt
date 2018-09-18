@@ -1,15 +1,11 @@
 The file path to your desktop will vary based on your computer
 $ cd //rba-col-dc01/redirectedfolders/ccrowe/desktop/areatracking
 
-Now we will create a copy of our recently stored map. This can be used in the
-scenario that we lost data with the most recent update.
-$ cp trkNorthMaster.ptm copy/trkCopy[date].ptm
-
 Sync with the most recent files 
 $ git pull
 
-Add your edits for just your map and save them
+Edit the map and save
 
 Push your changes to the Git server
-$ git commit -a -m "[Team] update [date of update]"
+$ git commit -a -m "[Person updating] update [date of update]"
 $ git push
